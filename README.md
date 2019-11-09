@@ -1,14 +1,11 @@
-<p align="center"><img width="300" src="https://raw.githubusercontent.com/thedevdojo/chatter/master/public/assets/images/logo.png"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/thedevdojo/chatter"><img src="https://travis-ci.org/thedevdojo/chatter.svg?branch=master" alt="Build Status"></a>
+<!-- <p align="center">
 <a href="https://styleci.io/repos/64518333/shield?style=flat"><img src="https://styleci.io/repos/64518333/shield?style=flat" alt="Build Status"></a>
 <a href="https://packagist.org/packages/devdojo/chatter"><img src="https://poser.pugx.org/devdojo/chatter/downloads.svg?format=flat" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/devdojo/chatter"><img src="https://poser.pugx.org/devdojo/chatter/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/devdojo/chatter/license.svg?format=flat" alt="License"></a>
-</p>
+</p> -->
 
-# Laravel Forum Package - Chatter
+# Laravel Forum Package - Discussions
 
 ### Installation
 
