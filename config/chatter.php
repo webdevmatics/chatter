@@ -55,7 +55,7 @@ return [
     */
 
     'yields' => [
-        'head'   => 'css',
+        'head'   => 'head',
         'footer' => 'js',
     ],
 
