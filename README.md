@@ -16,9 +16,9 @@ Quick Note: If this is a new project, make sure to install the default user auth
     Under repositories section put
     ```
     "repositories": {
-        "discussions":{
+        "chatter":{
             "type": "vcs",
-            "url": "https://github.com/webdevmatics/discussions"
+            "url": "https://github.com/webdevmatics/chatter"
         }
     }
     ```
