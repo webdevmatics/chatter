@@ -67,49 +67,7 @@ Quick Note: If this is a new project, make sure to install the default user auth
     php artisan db:seed --class=ChatterTableSeeder
     ```
 
-7. Inside of your master.blade.php file include a header and footer yield. Inside the head of your master or app.blade.php add the following:
-
-    ```
-    @yield('css')
-    ```
-
-    Then, right above the `</body>` tag of your master file add the following:
-
-    ```
-    @yield('js')
-    ```
-
 Now, visit your site.com/forums and you should see your new forum in front of you!
-
-### Upgrading
-
-Make sure that your composer.json file is requiring the latest version of chatter:
-
-```
-"devdojo/chatter": "0.2.*"
-```
-
-Then you'll run:
-
-```
-composer update
-```
-
-Next, you may want to re-publish the chatter assets, chatter config, and the chatter migrations by running the following:
-
-```
-php artisan vendor:publish --tag=chatter_assets --force
-php artisan vendor:publish --tag=chatter_config --force
-php artisan vendor:publish --tag=chatter_migrations --force
-```
-
-Next to make sure you have the latest database schema run:
-
-```
-php artisan migrate
-```
-
-And you'll be up-to-date with the latest version :)
 
 ### Markdown editor
 
