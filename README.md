@@ -11,10 +11,26 @@
 
 Quick Note: If this is a new project, make sure to install the default user authentication provided with Laravel. `php artisan make:auth`
 
-1. Include the package in your project
+1. Update your composer.json file
+
+    Under repositories section put
+    ```
+    "repositories": {
+        "discussions":{
+            "type": "vcs",
+            "url": "https://github.com/webdevmatics/discussions"
+        }
+    }
+    ```
+    And under require section put
+    ```
+                "webdevmatics/chatter": "dev-master",
 
     ```
-    composer require "devdojo/chatter=0.2.*"
+    
+    finally run
+    ```
+        composer update
     ```
 
 2. Add the service provider to your `config/app.php` providers array:
