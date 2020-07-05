@@ -67,9 +67,16 @@ Quick Note: If this is a new project, make sure to install the default user auth
     php artisan db:seed --class=ChatterTableSeeder
     ```
 7. Put `@yield('head')` in head section of app.blade.php (layout file if you are using any other) and to load js put
+
 `<script src="{{ asset('js/app.js') }}"></script>`
+
 `@yield('js')`
-just about body tag in same file and remove  ` <script src="{{ asset('js/app.js') }}" defer></script>` from head section.
+
+just above body tag in same file and remove
+
+` <script src="{{ asset('js/app.js') }}" defer></script>`
+
+from head section.
 
 Now, visit your site.com/forums and you should see your new forum in front of you!
 
